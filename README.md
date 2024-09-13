@@ -30,11 +30,11 @@ If given more time, I would try to visualize how the evaluation metric is changi
 |hpo2|400|15000|8|0.48110|
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](Project/img/model_train_score.png)
+![model_train_score.png](project/img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](Project/img/model_test_score.png)
+![model_test_score.png](project/img/model_test_score.png)
 
 ## Summary
 
