@@ -10,7 +10,7 @@ The WeightedEnsemble_L3 model.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-Through EDA, I added added two additional features. Although Autogluon recognized one of the features as a datetime object, it was only concered with the year, month, day and day of week. But I believe that the time of day was a very imporant feature that was not parsed from the data. So I added the hour of day as a feature. In addition, I added whether it felt colder or warmer than the actual temperature in hopes that it gives the model more information about the climate. Since the weather is a big factor in determining whether people go outside in general.
+Through EDA, I added two additional features. Although Autogluon recognized one of the features as a datetime object, it was only concered with the year, month, day and day of week. But I believe that the time of day was a very imporant feature that was not parsed from the data. So I added the hour of day as a feature. In addition, I added whether it felt colder or warmer than the actual temperature in hopes that it gives the model more information about the climate. Since the weather is a big factor in determining whether people go outside in general.
 ### How much better did your model preform after adding additional features and why do you think that is?
 My model did perform incredibly better after adding the additional features. I think the extra features were crucial in determining whether people went out to bike. So having those features gave the model a better chance at predicting the bike sharing demand.
 
